@@ -1,0 +1,14 @@
+averrage_meanqual_after_trimming.
+
+Sample: 66611			 mean quality: 35.253
+Sample: 66610			 mean quality: 35.364
+Sample: 66609			 mean quality: 35.251
+Sample: 66608			 mean quality: 35.556
+Sample: 66607			 mean quality: 35.243
+Sample: 66606			 mean quality: 35.297
+Sample: 66605			 mean quality: 35.155
+Sample: 66604			 mean quality: 35.46
+Sample: 66614			 mean quality: 35.277
+Sample: 66615			 mean quality: 35.341
+Sample: 66616			 mean quality: 35.26
+Sample: 66613			 mean quality: 35.513

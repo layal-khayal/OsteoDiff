@@ -1,0 +1,26 @@
+meanquality_before_trimming.
+
+Sample: 66604_1_fastqc.zip			 mean quality: 32.938
+Sample: 66604_2_fastqc.zip			 mean quality: 32.818
+Sample: 66605_1_fastqc.zip			 mean quality: 30.735
+Sample: 66605_2_fastqc.zip			 mean quality: 32.284
+Sample: 66606_1_fastqc.zip			 mean quality: 32.493
+Sample: 66606_2_fastqc.zip			 mean quality: 32.382
+Sample: 66607_1_fastqc.zip			 mean quality: 32.252
+Sample: 66607_2_fastqc.zip			 mean quality: 32.249
+Sample: 66608_1_fastqc.zip			 mean quality: 32.896
+Sample: 66608_2_fastqc.zip			 mean quality: 32.874
+Sample: 66609_1_fastqc.zip			 mean quality: 30.867
+Sample: 66609_2_fastqc.zip			 mean quality: 32.473
+Sample: 66610_1_fastqc.zip			 mean quality: 32.737
+Sample: 66610_2_fastqc.zip			 mean quality: 32.589
+Sample: 66611_1_fastqc.zip			 mean quality: 32.286
+Sample: 66611_2_fastqc.zip			 mean quality: 32.079
+Sample: 66613_1_fastqc.zip			 mean quality: 32.832
+Sample: 66613_2_fastqc.zip			 mean quality: 32.695
+Sample: 66614_1_fastqc.zip			 mean quality: 31.021
+Sample: 66614_2_fastqc.zip			 mean quality: 32.878
+Sample: 66615_1_fastqc.zip			 mean quality: 32.484
+Sample: 66615_2_fastqc.zip			 mean quality: 32.446
+Sample: 66616_1_fastqc.zip			 mean quality: 32.35
+Sample: 66616_2_fastqc.zip			 mean quality: 32.259
