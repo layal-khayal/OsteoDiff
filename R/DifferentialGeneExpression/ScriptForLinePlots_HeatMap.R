@@ -40,10 +40,10 @@ mygenes <- list(Agenes,Bgenes,Cgenes,Dgenes,Egenes,Fgenes,Ggenes,Hgenes, Igenes)
 
 #==================================== plot function =========================================
 plot.clusterRici<- function(w,x,y,z,xlab=NULL,title=title){
-  w<- as.matrix(w)
-  x<- as.matrix(x)
-  y<- as.matrix(y)
-  z<- as.matrix(z)
+  w<- scale(w)
+  x<- scale(x)
+  y<- scale(y)
+  z<- scale(z)
   sd.w<- apply(w,2,sd)
   sd.x<- apply(x,2,sd)
   sd.y<- apply(y,2,sd)
@@ -77,7 +77,7 @@ plot.clusterRici<- function(w,x,y,z,xlab=NULL,title=title){
     print("No x-axis labeling")
   }
   
-  axis(2, at=seq(min.y, max.y, 1),cex.axis=1,las=2)
+  axis(2, at=seq(min.y, max.y, 1),cex.axis=3,las=2)
   #text(1,max.y,labels="rigid")
   #text(5,max.y,labels="critical")
   
@@ -120,9 +120,8 @@ par(mfrow=c(1,1))
 
 for (i in (1:9)){
   mychar <- toupper(letters[i])
-  mym2 <- mygenes[[i]]
+  mym <- mygenes[[i]]
   title = paste("Cluster",mychar)
-  mym<- t(apply(as.matrix(mym2), 1, scale))
   w <- mym[,1]
   x <- mym[,2]
   y <- mym[,3]
