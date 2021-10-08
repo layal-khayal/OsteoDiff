@@ -1,0 +1,8 @@
+#!/bin/bash
+
+PathAlign=/home/layal/Solexa/layal/DataOsteo/tophat_out
+Path=/home/layal/Solexa/layal/DataOsteo
+
+#deletion_profile.py -i $Path/mm10.HouseKeepingGene.bed -i $Path/bam_path.txt -l 50 -o output
+
+deletion_profile.py  -i $PathAlign/66604/accepted_hits.bam -l 50 -o delistion_distribution

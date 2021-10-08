@@ -1,0 +1,8 @@
+pdf("Six_output.splice_events.pdf")
+events=c(0.541710516654,0.543356731841,98.9111117199)
+pie(events,col=c(2,3,4),init.angle=30,angle=c(60,120,150),density=c(70,70,70),main="splicing events",labels=c("partial_novel 1%","complete_novel 1%","known 99%"))
+dev.off()
+pdf("Six_output.splice_junction.pdf")
+junction=c(13.3449467562,5.06532550364,81.5897277402)
+pie(junction,col=c(2,3,4),init.angle=30,angle=c(60,120,150),density=c(70,70,70),main="splicing junctions",labels=c("partial_novel 13%","complete_novel 5%","known 82%"))
+dev.off()
